@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>script</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <category>3efd22da0b203300a1b16c2367673a10</category>
+        <channels/>
+        <connect_queue/>
+        <description>ITSM conversation to show a users assigned assets</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.31","variables":{"1c79d8f7e5064009a0cab0ae790a6033":{"id":"1c79d8f7e5064009a0cab0ae790a6033","name":"LiveAgent_application","value":{"mode":"simple","value":""},"varType":"script","category":"vaVars"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"e411e585f52a4411b76ac47be290460b":{"id":"e411e585f52a4411b76ac47be290460b","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"0237aca37c9d4dabbebe8f54392919e2":{"id":"0237aca37c9d4dabbebe8f54392919e2","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"cd1ce9afb26b47aa82d447a2ccbe6b21","edgeType":"Edge","source":"e411e585f52a4411b76ac47be290460b","target":"0237aca37c9d4dabbebe8f54392919e2","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>My assigned equipment,assigned assets,asset,hardware,hardware status,assigned,equipment,assigned equipment</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>My assigned equipment</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 08:00:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>955859372f22201065a259ab2799b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My assigned equipment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_955859372f22201065a259ab2799b6ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 08:00:53</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=955859372f22201065a259ab2799b6ef"/>
+</record_update>
